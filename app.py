@@ -18,6 +18,7 @@ migrate = Migrate(app, db)
 from models import Marca
 
 
+
 listado_nombres ={'ana', 'juan', 'jose'}
 diccionario_nombre=[
     dict(
