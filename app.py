@@ -1,3 +1,4 @@
+import logging
 
 from flask import (
     Flask,
@@ -14,10 +15,10 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
+logging.info("agrega unos logs")
 
 
-
-listado_nombres ={'Pedro', 'juan', 'jose'}
+listado_nombres ={'Pedro    ', 'juan', 'jose'}
 diccionario_nombre=[
     dict(
         name=dict(
