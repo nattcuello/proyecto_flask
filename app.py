@@ -1,4 +1,5 @@
 import logging
+import sys
 
 from flask import (
     Flask,
@@ -17,6 +18,7 @@ migrate = Migrate(app, db)
 
 logging.info("agrega unos logs")
 
+sys.version_info()
 
 listado_nombres ={'Pedro    ', 'juan', 'jose'}
 diccionario_nombre=[
