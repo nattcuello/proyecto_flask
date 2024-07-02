@@ -1,3 +1,4 @@
+import sys
 
 from flask import (
     Flask,
@@ -14,7 +15,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-
+sys.version_info()
 
 
 listado_nombres ={'Pedro', 'juan', 'jose'}
