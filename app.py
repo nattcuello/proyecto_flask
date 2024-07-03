@@ -16,7 +16,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-logging.info("agrega unos logs")
+logging.info("agregasdsada unos logs")
 
 logging.info("agrega unoscambios")
 sys.version_info()
