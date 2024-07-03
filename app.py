@@ -18,6 +18,7 @@ migrate = Migrate(app, db)
 
 logging.info("agrega unos logs")
 
+logging.info("agrega unoscambios")
 sys.version_info()
 
 listado_nombres ={'Pedro    ', 'juan', 'jose'}
